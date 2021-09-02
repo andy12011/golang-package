@@ -3,7 +3,7 @@ package utils
 import "time"
 
 const (
-	YYYY_MM_DD_HH_II_SS = "2006-01-02 15:04:05"
+	TIME_FORMAT_ONE = "2006-01-02 15:04:05" //YYYY-MM-DD HH:MM:SS
 )
 
 type timeFactory struct {
@@ -26,7 +26,7 @@ func (t *timeFactory) SetTime(newTime time.Time) *timeFactory {
 }
 
 func (t *timeFactory) ToString() string {
-	return t.Time.Format(YYYY_MM_DD_HH_II_SS)
+	return t.Time.Format(TIME_FORMAT_ONE)
 }
 
 func (t *timeFactory) Format(format string) string {

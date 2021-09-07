@@ -1,4 +1,4 @@
-package id_factory
+package unique_id_factory
 
 import (
 	"context"

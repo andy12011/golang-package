@@ -1,4 +1,4 @@
-package id_factory
+package unique_id_factory
 
 // use sonyflake
 // go get github.com/sony/sonyflake
@@ -36,10 +36,6 @@ func init() {
 	}
 
 	sony = sonyflake.NewSonyflake(setting)
-}
-
-func GetSony() *sonyflake.Sonyflake {
-	return sony
 }
 
 func GetID() (uint64, error) {

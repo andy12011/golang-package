@@ -18,7 +18,7 @@ func TestGetSony(t *testing.T) {
 					fmt.Println("stop")
 					return
 				default:
-					id, err := GetID()
+					id, err := GetSonyID()
 					if nil != err {
 						fmt.Println(err.Error())
 						cancel()

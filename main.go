@@ -26,7 +26,7 @@ func queueInit() {
 	for {
 		idx++
 		data := channel.NewData()
-		val, err := unique_id_factory.GetID()
+		val, err := unique_id_factory.GetSonyID()
 
 		if err != nil {
 			continue

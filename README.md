@@ -2,7 +2,7 @@
 
 
 ### v1.0.2 (2021-09-07 release)
-  1. add buffer andy unbuffer queue
+  1. add buffer and unbuffer queue
   2. fix package import bug
 ### v1.0.1 (2021-09-02)
   1. add unique id factory
